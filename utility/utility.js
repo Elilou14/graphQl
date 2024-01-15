@@ -15,8 +15,5 @@ module.exports.parcourirObjet=(obj)=>{
     }
     return {champsObjet,champsSousObjet}
   }
-  
-  // Exemple d'utilisation avec votre objet
-  // const monObjet = { id: true, articles: { content: true } };
-  // parcourirObjet(monObjet);
+
   
