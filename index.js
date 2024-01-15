@@ -2,6 +2,9 @@ const { ApolloServer,gql } = require('apollo-server-express');
 const express = require('express');
 const typeDefs = require('./graphql/schema');
 const resolvers = require('./graphql/resolvers')
+const {
+  ApolloServerPluginLandingPageLocalDefault
+} = require('apollo-server-core');
 
 const app = express();
 
